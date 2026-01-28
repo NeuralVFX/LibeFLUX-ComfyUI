@@ -11,7 +11,7 @@ Custom nodes for running [LibreFlux](https://huggingface.co/neuralvfx/LibreFlux-
 2. Install dependencies
    In your ComfyUI conda env:
    ```bash
-   pip install protobuf optimum-quanto
+   pip install protobuf optimum-quanto diffusers==0.35.2
    ```
 
 3. Copy into comfyUI
@@ -62,8 +62,12 @@ Generates images using the loaded pipeline.
 ## Requirements
 
 - ComfyUI
+  - protobuf
+  - optimum-quanto
+  - diffusers==0.35.2
 - 55 GB VRAM ( with no optimization )
 - 25 GB VRAM ( with **cpu offloading** and **quantize** )
+
 
 
 
