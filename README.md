@@ -55,7 +55,7 @@ Generates images using the loaded pipeline.
 
 ## Example Workflow
 
-<!-- Add your workflow screenshot here -->
+![Workflow](assets/workflow.png)
 
 ## Requirements
 
@@ -66,6 +66,7 @@ Generates images using the loaded pipeline.
   - diffusers==0.35.2
 - 55 GB VRAM ( with no optimization )
 - 25 GB VRAM ( with **cpu offloading** and **quantize** )
+
 
 
 
