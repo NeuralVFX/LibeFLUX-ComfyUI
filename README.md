@@ -20,7 +20,7 @@ Custom nodes for running [LibreFlux](https://huggingface.co/neuralvfx/LibreFlux-
    ```
 
 ## Nodes
-
+![Load node](assets/load_node.png)
 ### Load LibreFlux Pipeline
 
 Loads the LibreFlux model with IP Adapter and ControlNet.
@@ -63,5 +63,6 @@ Generates images using the loaded pipeline.
 - ComfyUI
 - 55 GB VRAM ( with no optimization )
 - 25 GB VRAM ( with **cpu offloading** and **quantize** )
+
 
 
