@@ -16,7 +16,7 @@ Custom nodes for running [LibreFlux](https://huggingface.co/neuralvfx/LibreFlux-
 
 3. Copy into comfyUI
    ```bash
-   cp ibreflux_nodes ComfyUI/custom_nodes
+   cp libreflux_nodes ComfyUI/custom_nodes
    ```
 
 ## Nodes
@@ -61,12 +61,7 @@ Generates images using the loaded pipeline.
 ## Requirements
 
 - ComfyUI
-- ~24GB VRAM (or enable quantize/cpu_offload for lower VRAM)
-- HuggingFace account (recommended for faster downloads)
+- 55 GB VRAM ( with no optimization )
+- 25 GB VRAM ( with **cpu offloading** and **quantize** )
 
-## License
 
-<!-- Add your license here -->
-```
-
-Update the GitHub URL and add your license. Want me to adjust anything?
