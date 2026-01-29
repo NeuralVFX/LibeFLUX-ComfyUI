@@ -65,7 +65,8 @@ Generates images using the loaded pipeline.
   - optimum-quanto
   - diffusers==0.35.2
 - 55 GB VRAM ( with no optimization )
-- 25 GB VRAM ( with **cpu offloading** and **quantize** )
+- 35 GB VRAM ( with **cpu offloading** and **quantize** )
+
 
 
 
